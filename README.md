@@ -1,5 +1,5 @@
 # Tamp
-Tamp is an encoder for [Tamper](http://nytimes.github.io/tamper/) written in JavaScript. Tamper a categorical data serialization protocol, for more info on, visit the [Project Homepage](http://nytimes.github.io/tamper/).
+Tamp is an encoder for [Tamper](http://nytimes.github.io/tamper/) written in JavaScript. Tamper is a categorical data serialization protocol, for more info on, visit the [Project Homepage](http://nytimes.github.io/tamper/).
 
 ## Install
 To install the latest pubished version, execute `npm install tamp` in your terminal.
