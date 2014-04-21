@@ -13,18 +13,21 @@ npm link
 ```
 
 ## Usage
+See a [real example here](https://github.com/oztu/tamp/blob/master/example/simple.js).
 ```
 var createTamp = require('tamp');
 
 // Initialize tamp
 var tamp = createTamp();
 
-// Add a packed attribute (or more)
+// Add a packed attribute
 tamp.addAttribute({
 	attrName: FOR_EXAMPLE.attrName,
 	possibilities: FOR_EXAMPLE.possibilities,
 	maxChoices: FOR_EXAMPLE.maxChoices
 });
+
+// ... add more attributes perhaps ...
 
 // Encode the data
 tamp.pack(FOR_EXAMPLE.data);
