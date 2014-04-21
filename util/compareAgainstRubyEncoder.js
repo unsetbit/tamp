@@ -1,3 +1,6 @@
+// To run this script you need to `gem install tamper` and also
+// run `npm install` within this repo.
+
 var exec = require('child_process').exec;
 
 var rubyResults, nodeResults;
