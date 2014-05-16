@@ -1,6 +1,6 @@
 {
   "name": "tamp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Encoder for the Tamper protocol",
   "main": "./lib/createPackSet.js",
   "keywords": [
